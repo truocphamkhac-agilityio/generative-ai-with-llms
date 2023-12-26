@@ -1,4 +1,5 @@
 # [Generative AI with LLMs](https://www.deeplearning.ai/courses/generative-ai-with-llms/)
+
 In Generative AI with Large Language Models (LLMs), you’ll learn the fundamentals of how generative AI works, and how to deploy it in real-world applications.
 
 By taking this course, you'll learn to:
@@ -9,6 +10,19 @@ By taking this course, you'll learn to:
 - Discuss the challenges and opportunities that generative AI creates for businesses after hearing stories from industry researchers and practitioners
 
 Developers who have a good foundational understanding of how LLMs work, as well the best practices behind training and deploying them, will be able to make good decisions for their companies and more quickly build working prototypes. This course will support learners in building practical intuition about how to best utilize this exciting new technology.
+
+## Prerequisites
+
+- DVC
+- Python 3.6+
+
+## Getting Started
+
+1. Clone this repository and `cd` into it: `git clone git@github.com:truocphamkhac-agilityio/generative-ai-with-llms.git && cd generative-ai-with-llms`
+2. Create a virtual environment: `make virtualenv`
+3. Activate the virtual environment: `source venv/bin/activate`
+4. Install the dependencies: `make requirements`
+5. Download the data: `make pull`
 
 ## Week 1
 Generative AI use cases, project lifecycle, and model pre-training
